@@ -1,0 +1,80 @@
+@media screen and (max-width: 420px){
+    body{
+        margin: 0;
+    }
+    #lezioni h1{
+        width: 420px;
+    }
+    #lezioni{
+        width: 420px;
+        display: flex;
+        flex-direction: column;
+        background-color: antiquewhite;
+        
+    }
+    #lezioni .row{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: antiquewhite;
+    }
+    #steps .row{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+    #why .row{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: antiquewhite;
+    }   
+    .left,.right, .central{
+        min-width: 100%;
+    }
+  
+    img{
+        max-height: 100px;
+    }  
+}
+@media screen and (max-width: 768px){
+    body{
+        margin: 0;
+    }
+    #lezioni h1{
+        width: 768px;
+    }
+    #lezioni{
+        width: 768px;
+        display: flex;
+        flex-direction: column;
+        background-color: antiquewhite;
+        
+    }
+    #lezioni .row{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: antiquewhite;
+    }
+    #steps .row{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+    #why .row{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: antiquewhite;
+    }   
+    .left,.right, .central{
+        min-width: 100%;
+    }
+  
+    img{
+        max-height: 150px;
+    }  
+}
